@@ -6,7 +6,6 @@ The model integrates sector-specific regression analysis, empirical factor bench
 It aims to generate positive risk-adjusted returns and outperform the MSCI ACWI benchmark while maintaining a diversified, sector-balanced exposure.
 
 
-![Strategy](assets/SCFSM.jpg)
 
 ---
 
