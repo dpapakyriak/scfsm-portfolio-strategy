@@ -131,49 +131,6 @@ This produces a long-only, fully invested portfolio optimized for downside risk-
 
 ---
 
-## Empirical Results
-
-| Rank | Ticker | Sector | Score |
-|------|--------|--------|-------|
-| 1 | META | Communication Services | 0.93 |
-| 2 | LLY | Health Care | 0.90 |
-| 3 | NOVO-B.CO | Health Care | 0.88 |
-| 4 | HD | Consumer Discretionary | 0.87 |
-| 5 | ASML.AS | Information Technology | 0.84 |
-| 6 | LIN | Materials | 0.82 |
-| 7 | WMT | Consumer Staples | 0.81 |
-| 8 | XOM | Energy | 0.80 |
-| 9 | BRK-B | Financials | 0.79 |
-| 10 | GE | Industrials | 0.77 |
-| 11 | MA | Financials | 0.76 |
-| 12 | SHEL.L | Energy | 0.74 |
-| 13 | NESN.SW | Consumer Staples | 0.73 |
-| 14 | 9988.HK | Communication Services | 0.72 |
-| 15 | 2330.TW | Information Technology | 0.71 |
-
-The resulting portfolio demonstrates consistent exposure to firms exhibiting above-average profitability, strong balance sheets, and stable growth relative to their sectoral peers.
-
----
-
-## Performance Evaluation
-To assess portfolio efficiency, risk-adjusted performance is evaluated using the Sharpe and Sortino ratios, as well as alpha and volatility measures.
-
-Let \( R_p \) and \( R_b \) denote the portfolio and benchmark returns, respectively.
-
-\[
-\text{Alpha} = E[R_p - R_b]
-\]
-\[
-\text{Sharpe} = \frac{E[R_p] - R_f}{\sigma_p}
-\]
-\[
-\text{Sortino} = \frac{E[R_p] - R_f}{\sigma_{d,p}}
-\]
-
-Drawdown and volatility analyses are used to evaluate downside protection and capital stability over time.  
-The SCFSM model exhibits superior downside control relative to benchmark indices due to its sector-calibrated risk management mechanism.
-
----
 
 ## Discussion
 The SCFSM provides a sector-aware approach to factor-based investing by decomposing return drivers at the industry level.  
